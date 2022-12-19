@@ -3,8 +3,8 @@ console.log('I kilometri da percorrere sono: ', kmChoice);
 console.log(typeof 'I kilometri da percorrere sono: ', kmChoice);
 
 const myAge = prompt('Quanti anni hai?');
-console.log("L'utente ha: ", myAge);
-console.log(typeof "L'utente ha: ", myAge, 'anni');
+console.log("L'utente ha: ", myAge, 'anni');
+console.log(typeof "L'utente ha: ", myAge);
 
 let tripPrice = kmChoice * 0.21;
 tripPrice = tripPrice.toFixed(2);
