@@ -26,12 +26,11 @@ if (myAge < 18) {
     console.log('Prezzo scontato: ', discountPrice20);
     document.getElementById('baseprice1').innerHTML = ('al posto di € ' + tripPrice);
 }
-else{
-    document.getElementById('baseprice').innerHTML = tripPrice;
-}
-
-if (myAge >= 65) {
+else if (myAge >= 65) {
     document.getElementById('over65').innerHTML = discountPrice40;
     console.log('Prezzo scontato: ', discountPrice40);
     document.getElementById('baseprice2').innerHTML = ('al posto di € ' + tripPrice);
+}
+else{
+    document.getElementById('baseprice').innerHTML = tripPrice;
 }
